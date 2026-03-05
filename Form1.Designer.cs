@@ -64,6 +64,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("맑은 고딕", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 129);
+            label2.ForeColor = SystemColors.Highlight;
             label2.Location = new Point(428, 191);
             label2.Name = "label2";
             label2.Size = new Size(240, 31);
@@ -75,6 +76,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("맑은 고딕", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 129);
+            label3.ForeColor = SystemColors.HotTrack;
             label3.Location = new Point(428, 287);
             label3.Name = "label3";
             label3.Size = new Size(261, 31);
@@ -83,20 +85,23 @@
             // 
             // button1
             // 
+            button1.BackColor = Color.FromArgb(64, 64, 64);
             button1.Font = new Font("맑은 고딕", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 129);
+            button1.ForeColor = SystemColors.Control;
             button1.Location = new Point(428, 459);
             button1.Name = "button1";
             button1.Size = new Size(175, 54);
             button1.TabIndex = 4;
             button1.Text = "GitHub";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("맑은 고딕", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 129);
-            label4.Location = new Point(428, 387);
+            label4.ForeColor = Color.DarkGreen;
+            label4.Location = new Point(428, 376);
             label4.Name = "label4";
             label4.Size = new Size(175, 31);
             label4.TabIndex = 5;
@@ -104,23 +109,27 @@
             // 
             // button2
             // 
+            button2.BackColor = Color.Gold;
             button2.Font = new Font("맑은 고딕", 18F, FontStyle.Regular, GraphicsUnit.Point, 129);
             button2.Location = new Point(98, 538);
             button2.Name = "button2";
             button2.Size = new Size(191, 53);
             button2.TabIndex = 6;
             button2.Text = "사진 변경";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
+            button3.BackColor = Color.IndianRed;
             button3.Font = new Font("맑은 고딕", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 129);
+            button3.ForeColor = SystemColors.Control;
             button3.Location = new Point(428, 538);
             button3.Name = "button3";
             button3.Size = new Size(175, 40);
             button3.TabIndex = 7;
             button3.Text = "배경색상 변경";
-            button3.UseVisualStyleBackColor = true;
+            button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
             // Form1
