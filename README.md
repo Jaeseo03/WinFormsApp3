@@ -33,5 +33,5 @@
 ### 🛠 기술 스택
 - **Language**: C#
 - **Framework**: .NET 10.0 (Windows Forms)
-- **IDE**: Visual Studio 2022
+- **IDE**: Visual Studio 2026
 - **Version Control**: Git / GitHub
